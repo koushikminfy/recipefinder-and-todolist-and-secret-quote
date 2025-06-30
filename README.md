@@ -24,16 +24,12 @@ public/
 └── \_redirects   # To handle React Router on Netlify
 
 ````
-image -1 {rec1}
-image-2{rec2}
-image -3{rec3}
-
 ---
 
 ##  API Used
 
-- [TheMealDB Search API](https://www.themealdb.com/api/json/v1/1/search.php?s=Arrabiata)
-- [TheMealDB Lookup by ID](https://www.themealdb.com/api/json/v1/1/lookup.php?i=52772)
+- [TheMealDB Search API] (https://www.themealdb.com/api/json/v1/1/search.php?s=Arrabiata)
+- [TheMealDB Lookup by ID] (https://www.themealdb.com/api/json/v1/1/lookup.php?i=52772)
 
 ---
 
@@ -72,9 +68,9 @@ bun run build
 
 ## 2.Recipe-finder{medium}
 
-```markdown
+Link:-
 https://recipefindermedium.netlify.app/
-````
+
 
 ```markdown
 ## Project Structure
@@ -124,9 +120,10 @@ bun run dev
 
 
 ## 3.Recipe-finder{Hard}
-```markdown
+
+Link:-
 https://recipefinderhard.netlify.app/
-````
+
 
 ##  API Used
 
@@ -178,9 +175,6 @@ bun install
 ```bash
 bun run dev
 ```
-
-Visit: [http://localhost:5173](http://localhost:5173)
-
 ---
 
 ##  Screenshots
@@ -338,7 +332,6 @@ bun install
 bun src/index.js
 ```
 
->  Server starts at: `http://localhost:3000`
 
 ---
 
@@ -401,23 +394,15 @@ Authorization: Bearer <accessToken>
 ###  Create a new To-Do
 
 `POST /api/todos`
-
-####  Example Body:
-
-
 ```
 ![13](https://github.com/user-attachments/assets/c11a15ed-82c7-4c3c-96be-ee43fe940227)
-
 ---
 
-###  Get all To-Dos for logged-in user
 
+###  Get all To-Dos for logged-in user
 `GET /api/todos`
 
-####  Response:
-
 ```
-
 ![14](https://github.com/user-attachments/assets/b69445f1-cc4a-4d81-938e-c39c6da89d14)
 ---
 
@@ -434,10 +419,7 @@ Authorization: Bearer <accessToken>
 
 `GET /api/admin/all-todos`
 
-```
 ![16](https://github.com/user-attachments/assets/7eaa6987-1dfc-4f19-ae00-adc87d3e81bc)
-
----
 
 
 
